@@ -1,0 +1,21 @@
+#ant specific
+dist/
+build/
+vendor/
+
+#netbeans specific
+core
+nbproject/*
+
+#java specific
+*.class
+
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+/tests/

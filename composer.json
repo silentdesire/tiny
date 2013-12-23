@@ -1,0 +1,25 @@
+{
+    "name": "silentdesire/tiny",
+    "description": "Tiny: The small CSS Framework.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Benjamin von Minden",
+            "email": "kontakt@foxynet.de"
+        }
+    ],
+    "license": [
+        "MIT",
+        "GPL-3.0"
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "leafo/lessphp": "0.4.*@dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
