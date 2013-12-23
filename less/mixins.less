@@ -1,0 +1,79 @@
+.clearfix {
+    &:before,
+        &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.opacity(@opacity: 0.5) {
+    -moz-opacity: @opacity;
+    -khtml-opacity: @opacity;
+    -webkit-opacity: @opacity;
+    opacity: @opacity;
+    @opperc: @opacity * 100;
+    -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
+    filter: ~"alpha(opacity=@{opperc})";
+}
+
+.boxShadow(@arguments: none) {
+    -webkit-box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    box-shadow: @arguments;
+}
+
+.focus() {
+    outline: none;
+}
+
+.userSelect(@select: none) {
+    -webkit-user-select: @select;
+    -webkit-user-drag: @select;
+    -khtml-user-drag: @select;
+    -khtml-user-select: @select;
+    -moz-user-select: @select;
+    -ms-user-select: @select;
+    -o-user-select: @select;
+    user-select: @select;
+}
+
+.btnStyle(@background; @color) {
+    color: @color;
+    background-color: @background;
+
+    &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        .open{
+        color: @color;
+        background-color: darken(@background, 8%);
+    }
+
+    &:active,
+        &.active,
+        .open {
+        background-image: none;
+    }
+
+    &:focus {
+        .focus();
+    }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &,
+        &:hover,
+            &:focus,
+            &:active,
+            &.active {
+            background-color: @background;
+        }
+    }
+
+}

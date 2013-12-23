@@ -1,0 +1,141 @@
+.row {
+    letter-spacing: -.31em;
+    *letter-spacing: normal;
+    *word-spacing: -.43em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+}
+.opera-only :-o-prefocus,
+.row {
+    word-spacing: -.43em
+}
+.col {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+.row [class *="col"] {
+    font-family: sans-serif
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+.col12 {
+    width: 100%
+}
+.col11 {
+    width: 90.75%
+}
+.col10 {
+    width: 82.5%
+}
+.col9 {
+    width: 74.25%
+}
+.col8 {
+    width: 66%
+}
+.col7 {
+    width: 57.75%
+}
+.col6 {
+    width: 49.5%
+}
+.col5 {
+    width: 41.25%
+}
+.col4 {
+    width: 33%
+}
+.col3 {
+    width: 24.75%
+}
+.col2 {
+    width: 16.5%
+}
+.col1 {
+    width: 8.25%
+}
+.row-fluid {
+    letter-spacing: -.31em;
+    *letter-spacing: normal;
+    *word-spacing: -.43em;
+    font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+}
+.opera-only :-o-prefocus,
+.row-fluid {
+    word-spacing: -.43em
+}
+.row-fluid [class *="col"] {
+    font-family: sans-serif
+}
+.row-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width:980px) {
+    .show-phone {
+        display: none
+    }
+    .show-tablet {
+        display: none
+    }
+    .hide-desktop {
+        display: none
+    }
+}
+@media (max-width:480px) {
+    .row-fluid > .col,
+    .row-fluid > [class *="col"] {
+        width: 100%
+    }
+}
+@media (max-width:767px) {
+    .row-fluid > .col,
+    .row-fluid > [class *="col"] {
+        width: 100%
+    }
+    .hide-phone {
+        display: none
+    }
+    .show-desktop {
+        display: none
+    }
+}
+@media (min-width:768px) and (max-width:979px) {
+    .hide-tablet {
+        display: none
+    }
+    .show-desktop {
+        display: none
+    }
+}

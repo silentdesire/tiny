@@ -1,6 +1,7 @@
 {
     "name": "silentdesire/tiny",
     "description": "Tiny: The small CSS Framework.",
+    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
@@ -9,8 +10,7 @@
         }
     ],
     "license": [
-        "MIT",
-        "GPL-3.0"
+        "MIT"
     ],
     "require": {
     },

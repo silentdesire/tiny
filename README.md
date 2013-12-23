@@ -44,7 +44,7 @@ Browser Support
 	</thead>
 	<tbody>
 		<tr>
-			<td>7+</td>
+			<td>8+</td>
 			<td>30+</td>
 			<td>7+</td>
 			<td>26+</td>
