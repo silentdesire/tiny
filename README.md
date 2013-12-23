@@ -3,8 +3,6 @@ tiny
 
 Tiny: The small CSS Framework
 
-[![Build Status](https://travis-ci.org/silentdesire/tiny.png)](https://travis-ci.org/silentdesire/tiny)
-
 Get Started
 -----------
 
@@ -29,9 +27,6 @@ Beispiel:
 ```html
 <link rel="stylesheet" href="vendor/silentdesire/tiny/tiny.min.css">
 ```
-
-[Build Status]: https://api.travis-ci.org/silentdesire/tiny
-
 
 Features
 --------
