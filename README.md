@@ -5,10 +5,29 @@ Tiny: The small CSS Framework
 
 [![Build Status](https://api.travis-ci.org/silentdesire/tiny.png?branch=master)][Build Status]
 
-**Use:**
+Get Started
+-----------
+
+**Github:**
+
+* Download -> https://github.com/silentdesire/tiny/archive/master.zip
+* Entpacke das Verzeichnis auf deinen Desktop
+* Kopiere das 'css' Verzeichnis in dein Projekt-Ordner
+* Verlinke die tiny.min.css oder tiny.css im Head Bereich deiner Seite
+
+Beispiel:
+```html
+<link rel="stylesheet" href="assets/css/tiny.min.css">
+```
+
+**Composer:**
+
+* Füge "silentdesire/tiny": "dev-master" in deine composer.json
+* Update Composer mit 'php composer.phar update'
+* Binde die 'css' Datei in deinen Head Bereich ein.
 
 ```html
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="vendor/silentdesire/tiny/tiny.min.css">
 ```
 
 [Build Status]: https://api.travis-ci.org/silentdesire/tiny
@@ -16,20 +35,6 @@ Tiny: The small CSS Framework
 
 Features
 --------
-
-
-Get Started
------------
-
-To get started using Pure, go to the [Pure CSS website][Pure]. The website has
-extensive documentation and examples necessary to get you started using Pure.
-
-You can include the Pure CSS file in your project by fetching it from Yahoo's
-CDN:
-
-```html
-<link rel="stylesheet" href="">
-```
 
 
 Browser Support
