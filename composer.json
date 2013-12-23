@@ -2,6 +2,7 @@
     "name": "silentdesire/tiny",
     "description": "Tiny: The small CSS Framework.",
     "version": "1.0.0",
+    "keywords": ["framework", "css", "tiny"],
     "type": "library",
     "authors": [
         {
@@ -16,5 +17,8 @@
     },
     "require-dev": {
         "leafo/lessphp": "0.4.*@dev"
+    },
+    "support": {
+        "issues": "https://github.com/silentdesire/tiny/issues"
     }
 }
