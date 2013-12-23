@@ -1,7 +1,5 @@
-tiny
+tiny **The small CSS Framework**
 ====
-
-Tiny: The small CSS Framework
 
 Get Started
 -----------
