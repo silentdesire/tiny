@@ -3,7 +3,7 @@ tiny
 
 Tiny: The small CSS Framework
 
-[![Build Status](https://api.travis-ci.org/silentdesire/tiny.png?branch=master)][Build Status]
+[![Build Status](https://travis-ci.org/silentdesire/tiny.png)](https://travis-ci.org/silentdesire/tiny)
 
 Get Started
 -----------
